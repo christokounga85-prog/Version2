@@ -3,7 +3,9 @@ body{
     padding: 0;
     background:#150826	;
 }
-
+h2{
+    color: #E0DCE6;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -14,7 +16,7 @@ header{
      background-color: 	#32174D ;
 }
 header h2{
-    color: #00FF00;
+    color: #D4AF37;
     font-size: 26px;
    
 }
@@ -110,7 +112,7 @@ header h2{
 
 }
 .pro h2{
-    color: #00FF00;
+    color: #D4AF37;
 }
 .formation{
       border: 2px solid white;
@@ -122,7 +124,7 @@ header h2{
     color: white;
 }
 .formation h2{
-    color: #00FF00;
+    color: #D4AF37;
 }
 .pr{
     display: flex;
@@ -321,11 +323,31 @@ h2{
     padding: 9px;
     font-size: 12px;
     line-height: 1.5;
-    margin-top: auto;
+   margin-top: 0;
     width: 100%;
     box-sizing: border-box;
 }
+/* BOUTON EXPLORER */
+/* BOUTON EXPLORER */
+/* BOUTON EXPLORER */
+.btn-explorer {
+    display: inline-block;
+    background: #111111;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #777;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    transition: 0.3s;
+}
 
+.btn-explorer:hover {
+    background: #6A0DAD;
+    border-color: #D4AF37;
+}
 /* BOUTON GITHUB */
 .btn-code {
     display: inline-block;
@@ -337,7 +359,7 @@ h2{
     padding: 10px 20px;
     font-size: 13px;
     font-weight: bold;
-    margin-top: auto;
+ margin-top: auto;
     transition: 0.3s;
 }
 
@@ -405,8 +427,9 @@ h2{
     }
 
     .stat-card img {
-        height: 120px;
+        height: 185px;
     }
+    
 
     .card-contenu {
         padding: 12px 8px;
